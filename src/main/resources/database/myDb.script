@@ -29,7 +29,7 @@ SET FILES NIO TRUE
 SET FILES NIO SIZE 256
 SET FILES LOG TRUE
 SET FILES LOG SIZE 50
-SET FILES CHECK 1115
+SET FILES CHECK 1201
 SET DATABASE COLLATION "SQL_TEXT" PAD SPACE
 CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
 ALTER USER SA SET LOCAL TRUE
@@ -60,3 +60,4 @@ INSERT INTO "flyway_schema_history" VALUES(3,'3','create-table-checkins','SQL','
 INSERT INTO "flyway_schema_history" VALUES(4,'4','create-indexes','SQL','V4__create-indexes.sql',-1203549655,'SA','2024-04-02 13:22:09.282253',2,'1')
 INSERT INTO EVENTS VALUES('c83acdfb-0f1f-436d-83ef-b30d10ebff9d','Rocketseat NLW Unite','Aprenda java de forma gratuita','- - -',500)
 INSERT INTO EVENTS VALUES('fa43a541-67fd-492b-a9c7-bd32ecd62238','Rocketseat NLW','Aprenda java de forma gratuita','- -',500)
+INSERT INTO ATTENDEES VALUES('c83acdfb-0f1f-436d-83ef-b30d10ebff9d','Ygor Pacheco','ygorpacheco@ygorpacheco.com','fa43a541-67fd-492b-a9c7-bd32ecd62238',NULL)
